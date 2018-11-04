@@ -1,0 +1,101 @@
+# Settings
+baseurl = "http://localhost:1313"
+languageCode = "en-us"
+title = "Tim Nault Photography"
+theme = "phugo"
+googleAnalytics = "UA-XXXXXXX-Y"
+relativeURLs = true
+
+[params]
+
+    # Meta
+    description = "Phugo - Photo Gallery on Hugo"
+    author = "aerohub"
+    keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    
+    # Headerbar links
+    # Do not put here too many links,
+    # it will break mobile appearance
+
+    [[params.header.links]]
+    name = "Menu"
+    url = "#menu"
+    # icon = "fa-info-circle"    
+    icon = "fa-bars"
+    
+    # Footer panel
+    
+    [params.footer.paragraph]
+    headline = "Tim Nault Photography"
+    text = "<p>I consider myself a creative artist and then a photographer striving to create works of art. My passion is in creation…envisioning something in my mind then working at it till it becomes a reality. I have always focused my efforts on working in black and white. For me, visualizing scenes in terms of luminance just comes more naturally. Color just seems to get in the way.</p><p>Images in black and white allow for a stronger presentation of subject matter, message and feeling. Much of my photographic composition contains architectural elements, abstracts of objects or places, urban scenes, and the beauty in natural elements.</p><p>In pursuit of my passion for photography, I have slowly built my skills over the years both behind the lens and at a keyboard as an IT professional. Today I work, live, and play in Virginia’s capitol city of Richmond. My day job as an IT architect, my family, and dogs keep me fairly busy, but I continue to refine my craft. All of my images may be purchased as fine art prints for collection or wall display. I strive to provide exceptional quality art an affordable price. Materials and Inks are carefully selected for their longevity and museum grade standards. Thank you for stopping by. I hope you enjoy…</p><p>-Tim</p>"
+    
+    [params.footer.social]
+    headline = "Follow me"
+
+    [[params.footer.social.links]]
+    label = "Twitter"
+    url = "#"
+    icon = "fa-twitter"
+
+    [[params.footer.social.links]]
+    label = "Facebook"
+    url = "#"
+    icon = "fa-facebook"
+
+    [[params.footer.social.links]]
+    label = "Instagram"
+    url = "#"
+    icon = "fa-instagram"
+
+    [[params.footer.social.links]]
+    label = "Github"
+    url = "#"
+    icon = "fa-github"
+
+    [[params.footer.social.links]]
+    label = "Dribbble"
+    url = "#"
+    icon = "fa-dribbble"
+
+    [[params.footer.social.links]]
+    label = "LinkedIn"
+    url = "#"
+    icon = "fa-linkedin"
+    
+    # Contact form
+    
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'realEmail' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    
+    [params.footer.contact]
+    hide = false # Set this to true if you don't want to have a contact form on your site
+    realEmail = "info@timnaultphotography.com"
+    headline = "Get in touch"
+    buttonText = "Send"
+    resetText = "Reset"
+    
+    # 'warning' defines error messages for invalid inputs
+    [params.footer.contact.name]
+    text = "Name *"
+    warning = "Oops something went  wrong"
+
+    [params.footer.contact.email]
+    text = "Email *"
+    warning = "info@timnaultphotography.com"
+
+    [params.footer.contact.message]
+    text = "Message *"
+    warning = "Contact me" 
+    
+    # Copyright
+    [params.footer.copyright]
+    name = "Tim Nault"

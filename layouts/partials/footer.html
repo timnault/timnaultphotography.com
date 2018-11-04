@@ -1,0 +1,21 @@
+{{ "<!-- Footer -->" | safeHTML }}
+    <footer id="footer" class="footer">
+        <div class="inner split">
+            <div>
+                <section>
+              	    <p class="copyright">
+                    Copyright &copy; 2018. <a href="http://www.timnaultphotography.com">Tim Nault Photograpghy</a>. All Rights Reserved.
+                    </p>
+                </section>
+            </div>
+            <div>
+                <section>
+                    <ul class="icons">
+                    {{ range .Site.Params.footer.social.links }}
+                        <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .label }}</span></a></li>
+                    {{ end }}
+                    </ul>
+                </section>
+             </div>
+        </div>
+    </footer>

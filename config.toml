@@ -1,5 +1,5 @@
 # Settings
-baseurl = "https://timnault.com"
+baseurl = "https://www.timnault.com"
 languageCode = "en-us"
 title = "Tim Nault Photography"
 theme = "phugo"

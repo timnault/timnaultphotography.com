@@ -3,32 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/intime/</loc>
+    <loc>https://timnault.com/egyptian_building/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/oncewas/</loc>
+    <loc>https://timnault.com/intime/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/the_art_institute/</loc>
+    <loc>https://timnault.com/1/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://timnault.com/2/</loc>
+    <lastmod>2018-10-27T07:03:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timnault.com/3/</loc>
+    <lastmod>2018-10-27T07:03:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timnault.com/4/</loc>
+    <lastmod>2018-10-27T07:03:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timnault.com/oncewas/</loc>
+    <lastmod>2018-10-27T07:03:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timnault.com/the_art_institute/</loc>
+    <lastmod>2018-10-27T07:03:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://timnault.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://timnault.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://timnault.com/</loc>
     <priority>0</priority>
   </url>
   

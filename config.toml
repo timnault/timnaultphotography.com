@@ -9,9 +9,9 @@ relativeURLs = true
 [params]
 
     # Meta
-    description = "Phugo - Photo Gallery on Hugo"
-    author = "aerohub"
-    keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    description = "Tim Nault | Black & White Photography"
+    author = "Tim Nault"
+    keywords = "Tim Nault, Photography, Black and White Photography, photogallery, photoblog"
     
     # Headerbar links
     # Do not put here too many links,
@@ -30,37 +30,37 @@ relativeURLs = true
     text = "<p>I consider myself a creative artist and then a photographer striving to create works of art. My passion is in creation…envisioning something in my mind then working at it till it becomes a reality. I have always focused my efforts on working in black and white. For me, visualizing scenes in terms of luminance just comes more naturally. Color just seems to get in the way.</p><p>Images in black and white allow for a stronger presentation of subject matter, message and feeling. Much of my photographic composition contains architectural elements, abstracts of objects or places, urban scenes, and the beauty in natural elements.</p><p>In pursuit of my passion for photography, I have slowly built my skills over the years both behind the lens and at a keyboard as an IT professional. Today I work, live, and play in Virginia’s capitol city of Richmond. My day job as an IT architect, my family, and dogs keep me fairly busy, but I continue to refine my craft. All of my images may be purchased as fine art prints for collection or wall display. I strive to provide exceptional quality art an affordable price. Materials and Inks are carefully selected for their longevity and museum grade standards. Thank you for stopping by. I hope you enjoy…</p><p>-Tim</p>"
     
     [params.footer.social]
-    headline = "Follow me"
-
-    [[params.footer.social.links]]
-    label = "Twitter"
-    url = "#"
-    icon = "fa-twitter"
+    headline = ""
 
     [[params.footer.social.links]]
     label = "Facebook"
-    url = "#"
+    url = "https://www.facebook.com/Tim-Nault-Photography-210182339107581/"
     icon = "fa-facebook"
 
     [[params.footer.social.links]]
+    label = "Twitter"
+    url = "https://twitter.com/timnault"
+    icon = "fa-twitter"
+
+    [[params.footer.social.links]]
     label = "Instagram"
-    url = "#"
+    url = "https://www.instagram.com/timnaultphotography/"
     icon = "fa-instagram"
 
-    [[params.footer.social.links]]
-    label = "Github"
-    url = "#"
-    icon = "fa-github"
+    # [[params.footer.social.links]]
+    # label = "LinkedIn"
+    # url = "#"
+    # icon = "fa-linkedin"
 
-    [[params.footer.social.links]]
-    label = "Dribbble"
-    url = "#"
-    icon = "fa-dribbble"
+    # [[params.footer.social.links]]
+    # label = "Github"
+    # url = "#"
+    # icon = "fa-github"
 
-    [[params.footer.social.links]]
-    label = "LinkedIn"
-    url = "#"
-    icon = "fa-linkedin"
+    # [[params.footer.social.links]]
+    # label = "Dribbble"
+    # url = "#"
+    # icon = "fa-dribbble"
     
     # Contact form
     
@@ -86,7 +86,7 @@ relativeURLs = true
     # 'warning' defines error messages for invalid inputs
     [params.footer.contact.name]
     text = "Name *"
-    warning = "Oops something went  wrong"
+    warning = "Oops something went wrong"
 
     [params.footer.contact.email]
     text = "Email *"

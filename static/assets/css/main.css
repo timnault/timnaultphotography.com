@@ -258,6 +258,7 @@ body.touch .poptrox-popup .closer, body.touch .poptrox-popup .nav-previous, body
 @media screen and (max-width: 980px) { .poptrox-popup .closer { background-size: 3em; }
   .poptrox-popup .nav-previous, .poptrox-popup .nav-next { background-size: 3em; } }
 @media screen and (max-width: 736px) { .poptrox-popup:before { display: none; }
+  .poptrox-popup .caption { display: none !important; }
   .poptrox-popup .closer, .poptrox-popup .nav-previous, .poptrox-popup .nav-next { background-size: 3em; } }
 
 /* Wrapper */

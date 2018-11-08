@@ -25,9 +25,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 body { -webkit-text-size-adjust: none; }
 
-.logo { vertical-align: middle; margin-right: .3em; max-width: 64px;height: auto; padding: 2px;}
+.logo { vertical-align: middle; margin-right: .3em; width: auto;max-height: 5em; padding: 4px;}
 
-@media screen and (max-width: 736px) { .logo { vertical-align: middle; margin-right: .3em; max-width: 48px;height: auto; padding: 2px;} }
+@media screen and (max-width: 736px) { .logo { vertical-align: middle; margin-right: .3em; width: auto;height: 5em; padding: 4px;} }
 
 /* Box Model */
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }

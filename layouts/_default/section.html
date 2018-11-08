@@ -1,18 +1,7 @@
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ $.Scratch.Add "path" .Site.BaseURL }}
 {{ define "title" }}
 {{ .Title }} - {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<h2><a href="{{ .Site.BaseURL }}"><strong>Home</strong></a>
-    {{ range $index, $element := split $url "/" }}
-    {{ $.Scratch.Add "path" $element }}
-    {{ if ne $element "" }}
-    / {{ . | humanize }}
-    {{ $.Scratch.Add "path" "/" }}
-    {{ end }}
-    {{ end }}
-</h2>
 <div id="main">
     {{ .Content }}
 </div>

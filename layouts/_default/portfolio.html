@@ -1,15 +1,5 @@
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ $.Scratch.Add "path" .Site.BaseURL }}
 {{ define "main" }}
-<h2><a href="{{ .Site.BaseURL }}"><strong>Home</strong></a>
-{{ range $index, $element := split $url "/" }}
-{{ $.Scratch.Add "path" $element }}
-{{ if ne $element "" }}
-/ {{ . | humanize }}
-{{ $.Scratch.Add "path" "/" }}
-{{ end }}
-{{ end }}
-</h2>
+
     <div id="main">
        {{ range (where .Site.Pages "Section" "portfolio").ByDate.Reverse }}
             <article class="thumb">

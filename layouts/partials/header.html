@@ -15,3 +15,15 @@
 {{ partial "navigation.html" . }}
 
 </header>
+<div class="breadcrumb">
+    <h1>
+        <a href="{{ .Site.BaseURL }}"><strong>{{ .Site.Title }}</strong></a>
+        {{ range $index, $element := split $url "/" }}
+        {{ $.Scratch.Add "path" $element }}
+        {{ if ne $element "" }}
+        / {{ . | humanize }}
+        {{ $.Scratch.Add "path" "/" }}
+        {{ end }}
+        {{ end }}
+    </h1>
+</div>

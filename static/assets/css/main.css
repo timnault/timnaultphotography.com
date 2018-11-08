@@ -287,8 +287,9 @@ body.loading #header { -moz-transform: translateY(0); -webkit-transform: transla
 #header nav > ul > li a:hover { color: #ffffff !important; }
 #header nav > ul > li a.active { background-color: #242629; }
 
-.breadcrumb {background-color: #ffffff; bottom: auto; top: 0; height: 5em; left: 0; line-height: 5em; padding: 0 1em; position: relative; float: left; user-select: none; width: 100%; z-index: 10002;}
-.breadcrumb h1 {color: #a0a0a1; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; }
+.breadcrumb {bottom: auto; top: 0; height: 5em; left: 0; line-height: 5em; padding: 0 1em; position: relative; user-select: none; width: 100%; z-index: 10002;}
+.breadcrumb strong {color: #000000; font-weight: bolder;}
+.breadcrumb h1 {color: #666666; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; }
 .breadcrumb h1 a { border: 0; color: inherit; }
 .breadcrumb h1 a:hover { color: inherit !important; }
 

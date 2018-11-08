@@ -1,4 +1,13 @@
 {{ define "main" }}
+<h2><a href="{{ .Site.BaseURL }}"><strong>Home</strong></a>
+    {{ range $index, $element := split $url "/" }}
+    {{ $.Scratch.Add "path" $element }}
+    {{ if ne $element "" }}
+    / {{ . | humanize }}
+    {{ $.Scratch.Add "path" "/" }}
+    {{ end }}
+    {{ end }}
+</h2>
     <div id="main">
        {{ range (where .Site.Pages "Kind" "section").ByDate.Reverse }}
             <article class="thumb">

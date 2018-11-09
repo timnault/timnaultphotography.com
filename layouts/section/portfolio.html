@@ -1,5 +1,6 @@
 {{ define "main" }}
-    <div id="main">
+    <div id="main"></div>
+        <h2>PORTFOLIO</h2>
             {{ range (where .Site.Pages "section" "portfolio").ByDate.Reverse }}
             <article class="thumb">
                 <a href="{{ .Permalink }}" class="link"><img src="{{ .Params.albumthumb }}" alt="{{ .Title }}" /></a>

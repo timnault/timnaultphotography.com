@@ -1,20 +1,11 @@
 {{ define "main" }}
-<main aria-role="main">
-  <header class="homepage-header">
-    <h1>{{.Title}}</h1>
-    {{ with .Params.subtitle }}
-    <span class="subtitle">{{.}}</span>
-    {{ end }}
-  </header>
-  <div class="homepage-content">
+<img src="/static/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg" id="bg" alt="">
+  <div>
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
-  </div>
-  <div>
     <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
     {{ range first 10 .Pages }}
         {{ .Render "summary"}}
     {{ end }}
   </div>
-</main>
 {{ end }}

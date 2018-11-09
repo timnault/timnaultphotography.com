@@ -362,7 +362,7 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
   #main .thumb:nth-child(3) { -moz-transition-delay: 0.95s; -webkit-transition-delay: 0.95s; -ms-transition-delay: 0.95s; transition-delay: 0.95s; } }
 
 /* Home Page */
-.homepage-content { background: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+html { background: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 /* Footer */
 #footer { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); -moz-transition: -moz-transform 1s ease; -webkit-transition: -webkit-transform 1s ease; -ms-transition: -ms-transform 1s ease; transition: transform 1s ease; -moz-user-select: none; -ms-user-select: none; -webkit-user-select: none; background: #1f2224; bottom: auto; bottom: 0; left: 0; padding: 1em; position: relative; user-select: none; width: 100%; z-index: 10002; }

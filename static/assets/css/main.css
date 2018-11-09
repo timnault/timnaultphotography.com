@@ -274,7 +274,7 @@ body.loading #wrapper:before { -moz-transition: opacity 1s ease-out !important; 
 /* Header */
 body { padding: 0 0 4em 0; }
 
-#header { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); -moz-transition: -moz-transform 1s ease; -webkit-transition: -webkit-transform 1s ease; -ms-transition: -ms-transform 1s ease; transition: transform 1s ease; -moz-user-select: none; -ms-user-select: none; -webkit-user-select: none; background: #1f2224; bottom: auto; top: 0; height: 5em; left: 0; line-height: 5em; padding: 0 1em; position: fixed; user-select: none; width: 100%; z-index: 10002; }
+#header { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); -moz-transition: -moz-transform 1s ease; -webkit-transition: -webkit-transform 1s ease; -ms-transition: -ms-transform 1s ease; transition: transform 1s ease; -moz-user-select: none; -ms-user-select: none; -webkit-user-select: none; background: #1f2224; bottom: auto; top: 0; height: 4em; left: 0; line-height: 4em; padding: 0 1em; position: fixed; user-select: none; width: 100%; z-index: 10002; }
 body.loading #header { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 #header h1 { color: #a0a0a1; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; }
 #header h1 a { border: 0; color: inherit; }
@@ -287,7 +287,7 @@ body.loading #header { -moz-transform: translateY(0); -webkit-transform: transla
 #header nav > ul > li a:hover { color: #ffffff !important; }
 #header nav > ul > li a.active { background-color: #242629; }
 
-.breadcrumb {padding: 0 1em; position: relative; width: 100%; z-index: 10002; height: 4em; line-height: 5em;}
+.breadcrumb {padding: 0 1em; position: relative; width: 100%; z-index: 10002; height: 4em; line-height: 4em;}
 .breadcrumb strong {color: #000000; font-weight: bolder;}
 .breadcrumb h1 {color: #666666; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; }
 .breadcrumb h1 a { border: 0; color: inherit; }

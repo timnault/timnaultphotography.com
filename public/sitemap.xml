@@ -3,47 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.timnault.com/egyptian_building/</loc>
+    <loc>https://www.timnault.com/portfolio/egyptian_building/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/intime/</loc>
+    <loc>https://www.timnault.com/portfolio/intime/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/1/</loc>
+    <loc>https://www.timnault.com/portfolio/1/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/2/</loc>
+    <loc>https://www.timnault.com/portfolio/2/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/3/</loc>
+    <loc>https://www.timnault.com/portfolio/3/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/4/</loc>
+    <loc>https://www.timnault.com/portfolio/4/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/oncewas/</loc>
+    <loc>https://www.timnault.com/portfolio/oncewas/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/the_art_institute/</loc>
+    <loc>https://www.timnault.com/portfolio/the_art_institute/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.timnault.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.timnault.com/portfolio/</loc>
     <priority>0</priority>
   </url>
   

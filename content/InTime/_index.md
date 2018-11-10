@@ -1,6 +1,6 @@
 ---
 albumthumb: "/images/thumbs/In_Time/Convergence.jpg"
-title: "InTime"
+title: "InTime - Portfolio Type"
 date: 2018-10-27T07:03:41-04:00
 draft: false
 type: portfolios

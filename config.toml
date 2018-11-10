@@ -6,6 +6,12 @@ theme = "phugo"
 googleAnalytics = "UA-XXXXXXX-Y"
 relativeURLs = true
 
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  type = "type"
+
 [params]
 
     # Meta

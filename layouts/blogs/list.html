@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div id="main">
         <h2>Post List Layout</h2>
-       {{ range (where .Data.Pages "Type" "post") }}
+       {{ range (where .Data.Pages "Type" "blogs") }}
             <article class="thumb">
                 <a href="{{ .Permalink }}" class="link"><img src="{{ .Params.albumthumb }}" alt="{{ .Title }}" /></a>
                 <h2>{{ .Title }}</h2>

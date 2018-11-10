@@ -10,7 +10,7 @@ relativeURLs = true
   category = "categories"
   series = "series"
   tag = "tags"
-  type = "type"
+  type = "types"
 
 [params]
 

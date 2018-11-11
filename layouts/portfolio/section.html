@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div id="main">
     <h2>Portfolio Section Layout</h2>
-        {{ range (where (where .Site.Pages "Kind" "section") ".Params.type" "=" "portfolio" ).ByDate.Reverse }}
+        {{ range (where (where .Site.Pages "Kind" "section") "section" portfolio" ).ByDate.Reverse }}
             <article class="thumb">
                 <a href="{{ .Permalink }}" class="link"><img src="{{ .Params.albumthumb }}" alt="{{ .Title }}" /></a>
                 <h2>{{ .Title }}</h2>

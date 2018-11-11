@@ -1,6 +1,6 @@
 ---
 albumthumb: "/images/thumbs/Once_Was/WindowToThePast.jpg"
-title: "Oncwe Was - Post Type"
+title: "Oncwe Was - Blog Type"
 date: 2018-10-27T07:03:41-04:00
 draft: false
 type: blogs

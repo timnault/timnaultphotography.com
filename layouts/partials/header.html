@@ -3,17 +3,6 @@
 {{ partial "navigation.html" . }}
 
 </header>
-<div class="breadcrumb">
-    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-    {{ $.Scratch.Add "path" .Site.BaseURL }}
-    <h1>
-        <a href="{{ .Site.BaseURL }}"><strong>Home</strong></a>
-        {{ range $index, $element := split $url "/" }}
-        {{ $.Scratch.Add "path" $element }}
-        {{ if ne $element "" }}
-        / {{ . | humanize }}
-        {{ $.Scratch.Add "path" "/" }}
-        {{ end }}
-        {{ end }}
-    </h1>
-</div>
+{{ if not .IsHome }}
+{{ partial "breadcrumb.html" . }}
+{{ end }}

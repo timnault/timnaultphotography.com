@@ -1,6 +1,5 @@
 {{ define "main" }}
     <div id="main">
-        <h2>Default List Layout</h2>
         {{ range (where .Site.Pages "Kind" "section").ByDate.Reverse }}
             <article class="thumb">
                 <a href="{{ .Permalink }}" class="link"><img src="{{ .Params.albumthumb }}" alt="{{ .Title }}" /></a>

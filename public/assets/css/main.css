@@ -288,10 +288,11 @@ body.loading #header { -moz-transform: translateY(0); -webkit-transform: transla
 #header nav > ul > li a.active { background-color: #242629; }
 
 .breadcrumb {padding: 0 1em; position: relative; width: 100%; z-index: 10001; height: 4em; line-height: 4em;}
-.breadcrumb strong {color: #000000; font-weight: bolder;}
-.breadcrumb h1 {color: #666666; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; }
-.breadcrumb h1 a { border: 0; color: inherit; }
-.breadcrumb h1 a:hover { color: inherit !important; }
+.breadcrumb .home {color: #0594cb; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; font-weight: bolder;}
+.breadcrumb span {color: #0594cb; display: inline-block; font-size: 1em; line-height: 1; margin: 0; vertical-align: middle; font-weight: bolder;}
+.breadcrumb span a { border: 0; color: inherit; }
+.breadcrumb span a:hover { color: inherit !important; }
+.breadcrumb .active {color: #666666; }
 
 @media screen and (max-width: 736px) { body { padding: 1em 0 0 0; }
   #header { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); bottom: auto; height: 4em; padding: 0 1em; top: 0; }

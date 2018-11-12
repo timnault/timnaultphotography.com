@@ -7,8 +7,8 @@
           <p><span class="subtitle">BY TIM NAULT</span></p>
 
 
-        <a class="button" href="http://timnaultphotography.com/portfolio/">Portfolio</a>
-        <a class="button" href="http://timnaultphotography.com/purchase/">Purchase</a>
+        <a class="button" href="/portfolio/">Portfolio</a>
+        <a class="button" href="/blog/">Blog</a>
     </div>
 </div>
 </div>
@@ -21,4 +21,33 @@
         {{ .Render "summary"}}
     {{ end }}-->
   </div>
-{{ end }}
+
+  <div class="title">
+      <h2 class="section-title">PORTFOLIO</h2>  
+      <hr class="page-hr">
+      <p style="text-align: center;">Black and White Fine Art Photography with compositions containing architectural elements, abstracts of objects or places, and urban scenes.</p>
+  </div>
+
+  <div id="main">
+      <article class="thumb">
+          <a href="/portfolio/intime/" class="link"><img src="/images/thumbs/In_Time/Convergence.jpg" alt="In Time" /></a>
+          <h2>In Time</h2>
+          <p>Its In Time"</p>
+        </article>
+        <article class="thumb">
+          <a href="/portfolio/oncewas/" class="link"><img src="/images/thumbs/Once_Was/WindowToThePast.jpg" alt="Once Was" /></a>
+          <h2>OnceWas</h2>
+          <p>It Once Was"</p>
+        </article>
+        <article class="thumb">
+          <a href="/portfolio/the_art_institute/" class="link"><img src="/images/thumbs/The_Art_Institute/Art_Institute_Chicago_1.jpg" alt="The Art Institute" /></a>
+          <h2>The Art Institute</h2>
+          <p>Its the The Art Institute"</p>
+        </article>
+        <article class="thumb">
+          <a href="/portfolio/egyptian_building/" class="link"><img src="/images/thumbs/Egyptian_Building/EgyptianBuilding-100.jpg" alt="Egyptian Building" /></a>
+          <h2>Egyptian Building</h2>
+          <p>Its the Egyptian Building"</p>
+        </article>
+  </div>
+    {{ end }}

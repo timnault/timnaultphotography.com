@@ -364,8 +364,8 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
 
 /* Home Page */
 
-.homepage { display: flex; min-height: 692px; width:100%; background-image: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg); background-position: center center; background-repeat:  no-repeat; background-attachment: fixed; background-size: cover; background-color: #999; }
-.homepage .wrapper { margin: 200px auto; text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4); padding: 20px; text-align: center; width: 100%!important; max-width: 50%!important;}
+.homepage { display: flex; min-height: 692px; width:100%; background-image: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-color: #999; margin-bottom: 3em;}
+.homepage .wrapper { margin: 200px auto; text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4); padding: 20px; text-align: center; width: 100%!important; }
 .homepage .h1 {text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4); font-size: 50px; font-weight: bold; text-transform: uppercase; color: #fff!important; font-family: 'Comfortaa',display;}
 .homepage .page-hr { width: 50%!important; display: block; unicode-bidi: isolate; margin-block-start: 0.5em; margin-block-end: 0.5em; margin-inline-start: auto; margin-inline-end: auto; overflow: hidden; border-style: inset; border-width: 1px;}
 .homepage .subtitle {font-size: 16px; font-family: Montserrat,'Open Sans',Helvetica,Arial,sans-serif; font-weight: bold; letter-spacing: 5px; text-transform: uppercase;}
@@ -378,15 +378,15 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
   -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(197, 193, 193, 0.281);
+  background-color: rgba(34, 34, 34, 0.65);
   border: none!important;
   border-radius: 0;
-  box-shadow:  inset 0 0 0 1px rgba(197, 193, 193, 0.281);
+  box-shadow:  inset 0 0 0 1px rgba(51, 50, 50, 0.281);
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: bolder;
   height: 3.0555555556em;
   letter-spacing: 0.1em;
   line-height: 3.0555555556em;
@@ -395,9 +395,11 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
-  text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);}
+  text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);
+  margin: 1em;
+}
 
-.homepage .button:hover { background-color: rgba(197, 193, 193, 0.6);}
+.homepage .button:hover { background-color: rgba(87, 87, 87, 0.65);}
 .homepage .content { display: block; float: left;}
 .homepage .container {    
   display: -webkit-flex;
@@ -420,20 +422,10 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
   margin-left: auto;
 }
 
-img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+.title, .content { width:75%; margin: 0 auto; text-align: center;}
+.title h2, .content h2 {color: #333; font-weight: 500; line-height: 1em; text-align: center;}
+.title hr, .content hr { width: 50%; margin: 0 auto;}
+
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {

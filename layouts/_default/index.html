@@ -1,11 +1,24 @@
 {{ define "main" }}
-<div class="homepage"><img src="/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg" class="bg" alt="">
-  <div>
+<div class="homepage">
+    <div class="container">
+        <div class="wrapper">
+          <h1 class="title">BLACK AND WHITE PHOTOGRAPHY</h1>
+          <hr class="page-hr">
+          <p><span class="subtitle">BY TIM NAULT</span></p>
+
+
+        <a class="button" href="http://timnaultphotography.com/portfolio/">Portfolio</a>
+        <a class="button" href="http://timnaultphotography.com/purchase/">Purchase</a>
+    </div>
+</div>
+</div>
+<div class="content">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
-    <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
+
+    <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. 
     {{ range first 10 .Pages }}
         {{ .Render "summary"}}
-    {{ end }}
+    {{ end }}-->
   </div>
 {{ end }}

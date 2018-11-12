@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.timnault.com/portfolio/egyptian_building/</loc>
+    <loc>http://localhost:1313/portfolio/egyptian_building/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/portfolio/intime/</loc>
+    <loc>http://localhost:1313/portfolio/intime/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/portfolio/oncewas/</loc>
+    <loc>http://localhost:1313/portfolio/oncewas/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/portfolio/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/portfolio/the_art_institute/</loc>
+    <loc>http://localhost:1313/portfolio/the_art_institute/</loc>
     <lastmod>2018-10-27T07:03:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.timnault.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <priority>0</priority>
   </url>
   

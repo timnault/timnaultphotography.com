@@ -363,7 +363,63 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
   #main .thumb:nth-child(3) { -moz-transition-delay: 0.95s; -webkit-transition-delay: 0.95s; -ms-transition-delay: 0.95s; transition-delay: 0.95s; } }
 
 /* Home Page */
-.homepage { display: flex; min-height: 692px; width:100%;}
+
+.homepage { display: flex; min-height: 692px; width:100%; background-image: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg); background-position: center center; background-repeat:  no-repeat; background-attachment: fixed; background-size: cover; background-color: #999; }
+.homepage .wrapper { margin: 200px auto; text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4); padding: 20px; text-align: center; width: 100%!important; max-width: 50%!important;}
+.homepage .h1 {text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4); font-size: 50px; font-weight: bold; text-transform: uppercase; color: #fff!important; font-family: 'Comfortaa',display;}
+.homepage .page-hr { width: 50%!important; display: block; unicode-bidi: isolate; margin-block-start: 0.5em; margin-block-end: 0.5em; margin-inline-start: auto; margin-inline-end: auto; overflow: hidden; border-style: inset; border-width: 1px;}
+.homepage .subtitle {font-size: 16px; font-family: Montserrat,'Open Sans',Helvetica,Arial,sans-serif; font-weight: bold; letter-spacing: 5px; text-transform: uppercase;}
+.homepage .button { 
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  -ms-appearance: none; 
+  appearance: none; 
+  -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out; 
+  -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: rgba(197, 193, 193, 0.281);
+  border: none!important;
+  border-radius: 0;
+  box-shadow:  inset 0 0 0 1px rgba(197, 193, 193, 0.281);
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 300;
+  height: 3.0555555556em;
+  letter-spacing: 0.1em;
+  line-height: 3.0555555556em;
+  padding: 0 2.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);}
+
+.homepage .button:hover { background-color: rgba(197, 193, 193, 0.6);}
+.homepage .content { display: block; float: left;}
+.homepage .container {    
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 3;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -388,7 +444,7 @@ img.bg {
 
 
 /* Footer */
-#footer { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); -moz-transition: -moz-transform 1s ease; -webkit-transition: -webkit-transform 1s ease; -ms-transition: -ms-transform 1s ease; transition: transform 1s ease; -moz-user-select: none; -ms-user-select: none; -webkit-user-select: none; background: #1f2224; bottom: auto; bottom: 0; left: 0; padding: 1em; position: relative; user-select: none; width: 100%; z-index: 10002; }
+#footer { background: #1f2224; bottom: 0; left: 0; padding: .5em; position: fixed; width: 100%; z-index: 10002; }
 body.loading #header { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 #footer .copyright { color: #a0a0a1; display: inline-block; font-size: .8em; line-height: 1; margin: 0; vertical-align: middle; }
 #footer .copyright a { border: 0; color: inherit; }
@@ -405,7 +461,7 @@ body.loading #header { -moz-transform: translateY(0); -webkit-transform: transla
 #footer nav > ul > li a.active { background-color: #242629; }
 
 
-.footer { padding: 4em 2em 2em 2em ; -moz-transform: translateY(-100vh); -webkit-transform: translateY(-100vh); -ms-transform: translateY(-100vh); transform: translateY(-100vh); -moz-transition: -moz-transform 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease; -ms-transition: -ms-transform 0.5s ease; transition: transform 0.5s ease; -webkit-overflow-scrolling: touch; background: rgba(36, 38, 41, 0.975); bottom: auto; top: calc(8em - 1px); left: 0; max-height: calc(80vh - 4em); overflow-y: auto; position: fixed; width: 100%; z-index: 10001; }
+.footer { background: #1f2224; bottom: 0; left: 0; padding: .5em; position: fixed; width: 100%; z-index: 10002;  }
 .footer.active { -moz-transform: translateY(0); -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 .footer > .inner { margin: 0 auto; max-width: 100%; width: 75em; }
 .footer > .inner.split { display: -moz-flex; display: -webkit-flex; display: -ms-flex; display: flex; }

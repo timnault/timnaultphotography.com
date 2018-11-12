@@ -424,7 +424,7 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
 
 .title, .content { width:75%; margin: 0 auto; text-align: center;}
 .title h2, .content h2 {color: #333; font-weight: 500; line-height: 1em; text-align: center;}
-.title hr, .content hr { width: 50%; margin: 0 auto;}
+.title hr, .content hr { width: 50%; margin: 0 auto; margin-bottom: 1em;}
 
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */

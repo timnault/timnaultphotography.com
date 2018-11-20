@@ -390,7 +390,7 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
 .title hr, .content hr { width: 50%; margin: 0 auto; margin-bottom: 1em;}
 .content hr.post { width: 100%; margin: 0 auto; margin-bottom: 2em;}
 
-.content { margin: 3em auto; padding: 0 2em; max-width: 80%; margin-bottom: 50px; line-height: 1.6em; font-weight: 400!important;}
+.content { margin: 3em auto; padding: 0 2em; min-width: 80%; margin-bottom: 50px; line-height: 1.6em; font-weight: 400!important;}
 .content h2 { color: #333; display: block; font-size: 1.5em; margin-bottom: 1em;}
 .content h1 { color:#333;font-weight:bold;}
 .post-meta { font-size: 90%; }

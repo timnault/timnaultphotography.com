@@ -1,10 +1,19 @@
 # Settings
-baseurl = "https://www.timnault.com/"
+baseurl = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Tim Nault Photography"
 theme = "phugo"
 googleAnalytics = "UA-XXXXXXX-Y"
 relativeURLs = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
 
 [params]
 
@@ -99,3 +108,29 @@ relativeURLs = true
     # Copyright
     [params.footer.copyright]
     name = "Tim Nault"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"

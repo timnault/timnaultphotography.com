@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="content">
+    <div class="header">
+        <h1>{{ .Title }}</h1>
+        <h2>{{ .Site.Params.subtitle }}</h2>
+      </div>
+        <ul>
+        {{ $data := .Data }}
+        {{ range $key, $value := .Data.Terms.ByCount }}
+          <li>
+            <a href="{{ $value.Name | urlize }}">{{ $value.Name }}</a>
+            <span>&#40;{{ $value.Count }}&#41;</span>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+  {{ end }}

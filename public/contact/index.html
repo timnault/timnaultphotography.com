@@ -2,7 +2,9 @@
 <html lang="en-us">
 
 <head>
-    <title>Tim Nault Photography</title>
+    <title>
+Contact - Tim Nault Photography
+</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="Tim Nault | Black &amp; White Photography">
@@ -63,7 +65,7 @@ if (!doNotTrack) {
             
              
                 <span class="active">
-                    <a href="http://localhost:1313/tags/">Tags /</a>
+                    <a href="http://localhost:1313/contact/">Contact /</a>
                 </span>
             
           
@@ -74,17 +76,35 @@ if (!doNotTrack) {
 
         
         
-<div class="content">
-    <div class="header">
-        <h1>Tags</h1>
-        <h2></h2>
-      </div>
-        <ul>
+<div id="main">
+    <div class="content">
         
-        
-        </ul>
-      </div>
-  
+<div class="contact">
+    <section>
+        <h2>Get in touch</h2>
+        <form method="post" action="//formspree.io/info@timnaultphotography.com" novalidate>
+            <div class="field half first">
+                <input type="text" name="name" required data-validation-required-message="Oops something went wrong" id="name" placeholder="Name *" />
+            </div>
+            <div class="field half">
+                <input type="email" name="email" required data-validation-required-message="info@timnaultphotography.com" id="email" placeholder="Email *" />
+            </div>
+            <div class="field">
+                <textarea name="message" required data-validation-required-message="Contact me" id="message" rows="4" placeholder="Message *"></textarea>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send" class="special" /></li>
+                <li><input type="reset" value="Reset" /></li>
+                <li><input type="text" name="_gotcha" style="display:none" /></li>
+            </ul>
+        </form>
+    </section>
+</div>
+
+
+    </div>
+</div>
+
 
     <!-- Menu -->
     <menu id="menu" class="panel">

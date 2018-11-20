@@ -6,9 +6,29 @@
     <description>Recent content on Tim Nault Photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>I consider myself first and artist and then a photographer. My passion is in creative process…envisioning something in my mind then working at it till it becomes a reality. Since my first images I knew fine art photography was going to be a life long pursuit and passion.
+I have always focused my efforts on working in black and white. For me, visualizing scenes in terms of luminance just comes more naturally.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      <description>  Get in touch            </description>
+    </item>
     
   </channel>
 </rss>

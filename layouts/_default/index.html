@@ -8,14 +8,15 @@
 
 
         <a class="button" href="/portfolios/">Portfolios</a>
-        <a class="button" href="/behind-the-lens/">Behind the Lens</a>
+        <a class="button" href="/post/">Behind the Lens</a>
     </div>
 </div>
 </div>
-<div class="content">
+<div class="title">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-    {{.Content}}
-
+    <h2 class="section-title">WELCOME</h2>  
+    <hr class="page-hr">
+    <p>I consider myself a creative artist and then a photographer striving to create works of art. My passion is in creation…envisioning something in my mind then working at it till it becomes a reality. My artwork focuses on black and white photography with compositions containing architectural elements, abstracts of objects or places, and urban scenes. Please feel free to contact me with any questions or to purchase personally made archival quality prints. Thank you for stoping by…explore and enjoy!</p>
     <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. 
     {{ range first 10 .Pages }}
         {{ .Render "summary"}}
@@ -25,29 +26,42 @@
   <div class="title">
       <h2 class="section-title">PORTFOLIOS</h2>  
       <hr class="page-hr">
-      <p style="text-align: center;">Black and White Fine Art Photography with compositions containing architectural elements, abstracts of objects or places, and urban scenes.</p>
+      <p>Black and White Fine Art Photography with compositions containing architectural elements, abstracts of objects or places, and urban scenes.</p>
   </div>
 
   <div id="main">
       <article class="thumb">
-          <a href="/portfolio/intime/" class="link"><img src="/images/thumbs/In_Time/Convergence.jpg" alt="In Time" /></a>
+          <a href="/portfolios/intime/" class="link"><img src="/images/thumbs/In_Time/Convergence.jpg" alt="In Time" /></a>
           <h2>In Time</h2>
           <p>Its In Time"</p>
         </article>
         <article class="thumb">
-          <a href="/portfolio/oncewas/" class="link"><img src="/images/thumbs/Once_Was/WindowToThePast.jpg" alt="Once Was" /></a>
+          <a href="/portfolios/oncewas/" class="link"><img src="/images/thumbs/Once_Was/WindowToThePast.jpg" alt="Once Was" /></a>
           <h2>OnceWas</h2>
           <p>It Once Was"</p>
         </article>
         <article class="thumb">
-          <a href="/portfolio/the_art_institute/" class="link"><img src="/images/thumbs/The_Art_Institute/Art_Institute_Chicago_1.jpg" alt="The Art Institute" /></a>
+          <a href="/portfolios/the_art_institute/" class="link"><img src="/images/thumbs/The_Art_Institute/Art_Institute_Chicago_1.jpg" alt="The Art Institute" /></a>
           <h2>The Art Institute</h2>
           <p>Its the The Art Institute"</p>
         </article>
         <article class="thumb">
-          <a href="/portfolio/egyptian_building/" class="link"><img src="/images/thumbs/Egyptian_Building/EgyptianBuilding-100.jpg" alt="Egyptian Building" /></a>
+          <a href="/portfolios/egyptian_building/" class="link"><img src="/images/thumbs/Egyptian_Building/EgyptianBuilding-100.jpg" alt="Egyptian Building" /></a>
           <h2>Egyptian Building</h2>
           <p>Its the Egyptian Building"</p>
         </article>
+  </div>
+  
+    <div class="title">
+        <h2 class="section-title">Behind The Lens</h2>  
+        <hr class="page-hr">
+    </div>
+  <div class="content">
+    <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template.-->
+    {{ range first 5 ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
+      {{ .Render "summary"}}
+      <hr class="post">
+    {{ end }}
+    <a href="/post/">Read More Behind the Lens Posts<i class="fa fa-angle-double-right fa-fw"></i></a>
   </div>
     {{ end }}

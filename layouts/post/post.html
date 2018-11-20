@@ -1,0 +1,17 @@
+
+{{ define "main" }}
+<div class="title">
+    <h1>Behind the Lens</h1>
+    <hr class="page-hr">
+  </div>
+  
+  <div class="content">
+    {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
+      {{ .Render "summary"}}
+      <hr class="post">
+    {{ end }}
+  
+    {{ partial "pagination.html" . }}
+  
+  </div>
+{{ end }}

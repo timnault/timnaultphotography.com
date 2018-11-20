@@ -1,7 +1,6 @@
 ---
 title:  "About"
 date:  "2018-11-13"
-sidemenu:  "true"
 description: "About me and this site"
 ---
 

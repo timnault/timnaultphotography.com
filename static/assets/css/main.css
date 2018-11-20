@@ -372,7 +372,8 @@ body.loading #main .thumb { -moz-pointer-events: none; -webkit-pointer-events: n
 
 /* Home Page */
 
-.homepage { display: flex; min-height: 692px; width:100%; background-image: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg); background-position: center top; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-color: #999; margin-bottom: 3em;}
+
+.hompage (background: url(/images/fulls/The_Art_Institute/Art_Institute_Chicago_7.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;margin-bottom: 3em;)
 .homepage .wrapper { margin: 200px auto; text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4); padding: 20px; text-align: center; width: 100%!important; }
 .homepage .wrapper h1 {text-shadow: 0em 0em 0.3em rgba(0,0,0,1); text-transform: uppercase; color: #fff!important; font-family: "Raleway", Helvetica, Arial, sans-serif; margin-bottom: .5em;}
 .homepage .page-hr { width: 50%; border-bottom: solid 1px #999; margin: 0 auto; margin-bottom: 1em;}

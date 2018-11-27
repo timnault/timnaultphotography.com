@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Egyptian Revival on Tim Nault Photography</title>
+    <link>http://localhost:1313/tags/egyptian-revival/</link>
+    <description>Recent content in Egyptian Revival on Tim Nault Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Oct 2018 07:03:41 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/egyptian-revival/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Egyptian Revival</title>
+      <link>http://localhost:1313/portfolios/egyptianrevival/</link>
+      <pubDate>Sat, 27 Oct 2018 07:03:41 -0400</pubDate>
+      
+      <guid>http://localhost:1313/portfolios/egyptianrevival/</guid>
+      <description>The first Egyptian dynasty is believed to have began around 3000 B.C. For over two millennia Egypt reined as the richest and most civilized of cultures. The art and architecture of the lasting ruins of tombs and temples present a glimpse into this ancient world. Five thousand years later these motifs and imagery of ancient Egypt are reborn in of all places Richmond,Virginia. This folio explores the revival architecture of the Medical College of Virginia’s Egyptian Building.</description>
+    </item>
+    
+  </channel>
+</rss>

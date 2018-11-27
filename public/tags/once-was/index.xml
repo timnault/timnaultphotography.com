@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Once Was on Tim Nault Photography</title>
+    <link>http://localhost:1313/tags/once-was/</link>
+    <description>Recent content in Once Was on Tim Nault Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Oct 2018 07:03:41 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/once-was/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Once Was</title>
+      <link>http://localhost:1313/portfolios/oncewas/</link>
+      <pubDate>Sat, 27 Oct 2018 07:03:41 -0400</pubDate>
+      
+      <guid>http://localhost:1313/portfolios/oncewas/</guid>
+      <description>Once Was A LOOK AT PLACES ONCE ALIVE AND THRIVING
+  Window To ThePast &amp;ndash; Window of the cannon foundry at The American Civil War Center on the grounds of Tredegar Iron Works in Richmond Virginia.
+
+
+ Jackson Ward Sisrene Grocery &amp;ndash; Advertising for the Sisrene Grocery in the Jackson Ward of Richmond Virginia.
+
+
+ Weathered Plant &amp;ndash; Weathered processing plant in Richmond VA.</description>
+    </item>
+    
+  </channel>
+</rss>

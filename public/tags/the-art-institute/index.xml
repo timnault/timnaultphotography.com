@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Art Institute on Tim Nault Photography</title>
+    <link>http://localhost:1313/tags/the-art-institute/</link>
+    <description>Recent content in The Art Institute on Tim Nault Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Oct 2018 07:03:41 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/the-art-institute/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Art Institute</title>
+      <link>http://localhost:1313/portfolios/the_art_institute/</link>
+      <pubDate>Sat, 27 Oct 2018 07:03:41 -0400</pubDate>
+      
+      <guid>http://localhost:1313/portfolios/the_art_institute/</guid>
+      <description>The Art Institute The Art Institute of Chicago is a classical Beaux-Arts architecture incorporating a blend of French neoclassicism, Gothic, and Renaissance elements.
+  The Art Institute of Chicago #1 &amp;ndash; The Art Institute of Chicago.
+ 
+ The Art Institute of Chicago #2 &amp;ndash; The Art Institute of Chicago.
+
+
+ The Art Institute of Chicago #3 &amp;ndash; The Art Institute of Chicago.
+
+
+ The Art Institute of Chicago #4 &amp;ndash; The Art Institute of Chicago.</description>
+    </item>
+    
+  </channel>
+</rss>

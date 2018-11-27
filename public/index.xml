@@ -18,7 +18,8 @@
       
       <guid>http://localhost:1313/about/</guid>
       <description>I consider myself first and artist and then a photographer. My passion is in creative process…envisioning something in my mind then working at it till it becomes a reality. Since my first images I knew fine art photography was going to be a life long pursuit and passion.
-I have always focused my efforts on working in black and white. For me, visualizing scenes in terms of luminance just comes more naturally.</description>
+
+From the beginning I have always focused my efforts on working in black and white. For me, visualizing scenes in terms of luminance just comes more naturally.</description>
     </item>
     
     <item>
@@ -28,6 +29,26 @@ I have always focused my efforts on working in black and white. For me, visualiz
       
       <guid>http://localhost:1313/contact/</guid>
       <description>  Get in touch            </description>
+    </item>
+    
+    <item>
+      <title>Purchase</title>
+      <link>http://localhost:1313/purchase/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/purchase/</guid>
+      <description>Purchase PERSONALLY PREPARED HAND SIGNED WORKS OF ART
+  
+I personally prepare, sign, and number all works. Prints are made using Piezography Special Edition inks. The images are printed on Canson Infinity Platine Fiber Rag Paper. This is a high quality 310 gsm paper with 100% cotton rag base. Mats are hand cut using museum quality mat board. If you’re interested in purchasing a print and/or would like to see a sample before proceeding, please contact me using the contact form.</description>
+    </item>
+    
+    <item>
+      <title>My Creative Manifesto</title>
+      <link>http://localhost:1313/post/mycreativemanifesto/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/mycreativemanifesto/</guid>
+      <description>In the software development world there is a short and simple manifesto for guiding agile development. The manifesto identifies things that should be valued during the development process and principles to follow. In my mind creating art is very similar to software development. In the beginning both start with an idea and a few raw materials, explore different ways to achieve a goal, and in the end create something with meaning and value.</description>
     </item>
     
   </channel>

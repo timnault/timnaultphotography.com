@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>In Time on Tim Nault Photography</title>
+    <link>http://localhost:1313/tags/in-time/</link>
+    <description>Recent content in In Time on Tim Nault Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Nov 2018 21:17:12 -0500</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/in-time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In Time</title>
+      <link>http://localhost:1313/portfolios/intime/</link>
+      <pubDate>Sun, 25 Nov 2018 21:17:12 -0500</pubDate>
+      
+      <guid>http://localhost:1313/portfolios/intime/</guid>
+      <description>In Time CAPTURING THE ELEMENT OF TIME
+  Creator &amp;ndash; The Episcopal Church of the Creator in Mechanicsville, VA.
+
+
+ Convergence &amp;ndash; Between two realities lies the convergence of time and space
+
+
+ Cypress of Solace &amp;ndash; The cypress stands tall against time providing solace in a barren wasteland.
+
+
+ Ethereal Drift &amp;ndash; A serene statue, graveside at Hollywood Cemetery in Richmond Virginia.</description>
+    </item>
+    
+  </channel>
+</rss>

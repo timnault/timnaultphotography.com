@@ -321,17 +321,18 @@
 					usePopupForceClose: true,
 					usePopupLoader: true,
 					usePopupNav: true,
-					windowMargin: 0
+					windowMargin: 50
 				});
 
 				// Hack: Set margins to 0 when 'xsmall' activates.
 					skel
 						.on('-xsmall', function() {
-							$main[0]._poptrox.windowMargin = 0;
+							$main[0]._poptrox.windowMargin = 50;
 						})
 						.on('+xsmall', function() {
 							$main[0]._poptrox.windowMargin = 0;
 						});
+
 
 	});
 

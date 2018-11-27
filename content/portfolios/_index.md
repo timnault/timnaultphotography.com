@@ -35,6 +35,6 @@ draft: false
 	<h2>Inspire</h2>
 </article>
 <article class="thumb">
-	<a href="/portfolios/urbanscenes/" class="link"><img src="/images/thumbs/UrbanScenes/LightingTheWay.jpg" alt="Urban Scenes" /></a>
+	<a href="/portfolios/urbanscenes/" class="link"><img src="/images/thumbs/UrbanScenes/SouthWater.jpg" alt="Urban Scenes" /></a>
 	<h2>Urban Scenes</h2>
 </article>

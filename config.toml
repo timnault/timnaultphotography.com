@@ -4,7 +4,6 @@ baseurl = "https://www.timnault.com/"
 languageCode = "en-us"
 title = "Tim Nault Photography"
 theme = "phugo"
-googleAnalytics = "UA-XXXXXXX-Y"
 relativeURLs = true
 
 [sitemap]

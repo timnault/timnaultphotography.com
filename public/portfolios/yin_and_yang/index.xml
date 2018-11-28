@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yin_and_Yang on Tim Nault Photography</title>
-    <link>http://localhost:1313/portfolios/yin_and_yang/</link>
+    <link>https://www.timnault.com/portfolios/yin_and_yang/</link>
     <description>Recent content in Yin_and_Yang on Tim Nault Photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Nov 2018 18:34:53 -0500</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/portfolios/yin_and_yang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.timnault.com/portfolios/yin_and_yang/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

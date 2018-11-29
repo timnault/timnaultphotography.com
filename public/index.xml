@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tim Nault Photography</title>
-    <link>https://www.timnault.com/</link>
+    <link>https://www.timnaultphotography.com/</link>
     <description>Recent content on Tim Nault Photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.timnault.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.timnaultphotography.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://www.timnault.com/about/</link>
+      <link>https://www.timnaultphotography.com/about/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.timnault.com/about/</guid>
+      <guid>https://www.timnaultphotography.com/about/</guid>
       <description>I consider myself first and artist and then a photographer. My passion is in creative process…envisioning something in my mind then working at it till it becomes a reality. Since my first images I knew fine art photography was going to be a life long pursuit and passion.
 
 From the beginning I have always focused my efforts on working in black and white. For me, visualizing scenes in terms of luminance just comes more naturally.</description>
@@ -24,19 +24,19 @@ From the beginning I have always focused my efforts on working in black and whit
     
     <item>
       <title>Contact</title>
-      <link>https://www.timnault.com/contact/</link>
+      <link>https://www.timnaultphotography.com/contact/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.timnault.com/contact/</guid>
+      <guid>https://www.timnaultphotography.com/contact/</guid>
       <description>  Get in touch            </description>
     </item>
     
     <item>
       <title>Purchase</title>
-      <link>https://www.timnault.com/purchase/</link>
+      <link>https://www.timnaultphotography.com/purchase/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.timnault.com/purchase/</guid>
+      <guid>https://www.timnaultphotography.com/purchase/</guid>
       <description>Purchase PERSONALLY PREPARED HAND SIGNED WORKS OF ART
   
 I personally prepare, sign, and number all works. Prints are made using Piezography Special Edition inks. The images are printed on Canson Infinity Platine Fiber Rag Paper. This is a high quality 310 gsm paper with 100% cotton rag base. Mats are hand cut using museum quality mat board. If you’re interested in purchasing a print and/or would like to see a sample before proceeding, please contact me using the contact form.</description>
@@ -44,10 +44,10 @@ I personally prepare, sign, and number all works. Prints are made using Piezogra
     
     <item>
       <title>My Creative Manifesto</title>
-      <link>https://www.timnault.com/post/mycreativemanifesto/</link>
+      <link>https://www.timnaultphotography.com/post/mycreativemanifesto/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.timnault.com/post/mycreativemanifesto/</guid>
+      <guid>https://www.timnaultphotography.com/post/mycreativemanifesto/</guid>
       <description>In the software development world there is a short and simple manifesto for guiding agile development. The manifesto identifies things that should be valued during the development process and principles to follow. In my mind creating art is very similar to software development. In the beginning both start with an idea and a few raw materials, explore different ways to achieve a goal, and in the end create something with meaning and value.</description>
     </item>
     

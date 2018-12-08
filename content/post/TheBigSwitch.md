@@ -13,6 +13,6 @@ For about 10+ year now I've used Wordpress for all my website needs. Wordpress i
 
 I spent countless hours tweaking things to squeze every ounce of performance I could. I worked on tuning the data base, compressing images, and minifying code where I could. I implemented chaching both on the the server and the browser and used a Content distribution network. Don't get me wrong it was pretty darn fast. I was pleased, but it was a fairly complicated set up. I wanted simplicity. 
 
-On the rise has been static site generators.Enter Hugo. 
+On the rise has been static site generators. Enter Hugo. 
 
 

@@ -1,11 +1,15 @@
 ---
-albumthumb: "/images/thumbs/In_Time/Convergence.jpg"
+albumthumb: "/images/thumbs/In_Time/Ascendance.jpg"
 title: "In Time"
 date: 2018-11-25T21:17:12-05:00
 draft: false
 tags: ["In Time", "black and white photography", "long exposure"]
 ---
 {{< title title="In Time" description="CAPTURING THE ELEMENT OF TIME" >}}
+{{< photo full="/images/fulls/In_Time/Ascendance.jpg" thumb="/images/thumbs/In_Time/Ascendance.jpg" alt="" phototitle="Ascendance" description="-- Ascending angel, graveside at Hollywood Cemetery in Richmond Virginia." >}}
+
+
+<br />
 {{< photo full="/images/fulls/In_Time/Creator.jpg" thumb="/images/thumbs/In_Time/Creator.jpg" alt="" phototitle="Creator" description="-- The Episcopal Church of the Creator in Mechanicsville, VA." >}}
 
 
